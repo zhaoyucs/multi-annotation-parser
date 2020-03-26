@@ -123,7 +123,7 @@ A dependency parser for multi-annotation data
 	</tr>
   
    <tr >
-    <td rowspan="4">（方法b）将双人标注不一致的答案以或的关系参与计算loss</td>
+    <td rowspan="4">（方法b）将双人标注不一致的答案以或的关系（联合标签）参与计算loss</td>
     <td rowspan="2">dev</td>
     <td>UAS</td>
     <td>65.33%</td>
@@ -190,7 +190,7 @@ A dependency parser for multi-annotation data
     <td>LAS</td>
     <td>62.22%</td>
     <td>63.58%</td>
-    <td>3%</td>
+    <td>%</td>
   </tr>
   <tr>
     <td rowspan="2">test</td>
