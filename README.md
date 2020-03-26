@@ -123,7 +123,7 @@ A dependency parser for multi-annotation data
 	</tr>
   
    <tr >
-    <td rowspan="4">将双人标注不一致的答案以或的关系参与计算loss</td>
+    <td rowspan="4">（方法b）将双人标注不一致的答案以或的关系参与计算loss</td>
     <td rowspan="2">dev</td>
     <td>UAS</td>
     <td>65.33%</td>
@@ -176,5 +176,33 @@ A dependency parser for multi-annotation data
     <td>61.47%</td>
     <td>62.41%</td>
     <td>39.91%</td>
+  </tr>
+
+  <tr >
+    <td rowspan="4">以相互一致率为权重，加权计算（方法b）</td>
+    <td rowspan="2">dev</td>
+    <td>UAS</td>
+    <td>67.15%</td>
+    <td>69.36%</td>
+    <td>%</td>
+  </tr>
+  <tr>
+    <td>LAS</td>
+    <td>62.22%</td>
+    <td>63.58%</td>
+    <td>3%</td>
+  </tr>
+  <tr>
+    <td rowspan="2">test</td>
+    <td>UAS</td>
+    <td>66.78%</td>
+    <td>68.78%</td>
+    <td>%</td>
+  </tr>
+  <tr>
+    <td>LAS</td>
+    <td>61.34%</td>
+    <td>62.53%</td>
+    <td>%</td>
   </tr>
 </table>
