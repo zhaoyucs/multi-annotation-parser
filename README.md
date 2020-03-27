@@ -184,25 +184,25 @@ A dependency parser for multi-annotation data
     <td>UAS</td>
     <td>67.15%</td>
     <td>69.36%</td>
-    <td>%</td>
+    <td>51.04%</td>
   </tr>
   <tr>
     <td>LAS</td>
     <td>62.22%</td>
     <td>63.58%</td>
-    <td>%</td>
+    <td>40.78%</td>
   </tr>
   <tr>
     <td rowspan="2">test</td>
     <td>UAS</td>
     <td>66.78%</td>
     <td>68.78%</td>
-    <td>%</td>
+    <td>49.77%</td>
   </tr>
   <tr>
     <td>LAS</td>
     <td>61.34%</td>
     <td>62.53%</td>
-    <td>%</td>
+    <td>39.39%</td>
   </tr>
 </table>
