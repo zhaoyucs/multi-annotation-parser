@@ -9,35 +9,39 @@ A dependency parser for multi-annotation data
     <th>ctb</th>
     <th>hit</th>
     <th>pmt</th>
-	</tr >
-	<tr >
+    <th>pmt2020重标</th>
+  </tr >
+  <tr >
     <td rowspan="4">从正确答案训练</td>
     <td rowspan="2">dev</td>
     <td>UAS</td>
     <td>66.77%</td>
     <td>69.91%</td>
     <td>51.27%</td>
-	</tr>
+    <td>57.40%</td>
+  </tr>
   <tr>
     <td>LAS</td>
     <td>62.22%</td>
     <td>63.78%</td>
     <td>42.33%</td>
-	</tr>
-	<tr>
+    <td>48.36%</td>
+  </tr>
+  <tr>
     <td rowspan="2">test</td>
     <td>UAS</td>
     <td>66.43%</td>
     <td>68.22%</td>
     <td>50.91%</td>
-	</tr>
-	<tr>
+    <td>58.39%</td>
+  </tr>
+  <tr>
     <td>LAS</td>
     <td>60.85%</td>
     <td>62.13%</td>
     <td>40.27%</td>
-	</tr>
-  
+    <td>49.26%</td>
+  </tr>
   <tr >
     <td rowspan="4">以双人标注一致的数据训练，直接忽略双人不一致的数据</td>
     <td rowspan="2">dev</td>
