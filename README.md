@@ -205,4 +205,32 @@ A dependency parser for multi-annotation data
     <td>62.53%</td>
     <td>39.39%</td>
   </tr>
+  
+  <tr >
+    <td rowspan="4">以相互一致率为权重，加权计算（方法b）,同时加权label</td>
+    <td rowspan="2">dev</td>
+    <td>UAS</td>
+    <td>67.82%</td>
+    <td>70.01%</td>
+    <td>%</td>
+  </tr>
+  <tr>
+    <td>LAS</td>
+    <td>62.70%</td>
+    <td>63.88%</td>
+    <td>%</td>
+  </tr>
+  <tr>
+    <td rowspan="2">test</td>
+    <td>UAS</td>
+    <td>66.63%</td>
+    <td>68.44%</td>
+    <td>%</td>
+  </tr>
+  <tr>
+    <td>LAS</td>
+    <td>60.98%</td>
+    <td>62.18%</td>
+    <td>%</td>
+  </tr>
 </table>
