@@ -12,7 +12,22 @@ A dependency parser for multi-annotation data
     <th>pmt2020重标</th>
   </tr >
   <tr >
-    <td rowspan="4">从正确答案训练</td>
+    <td rowspan="6">从正确答案训练</td>
+    <td rowspan="2">train</td>
+    <td>UAS</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+  </tr>
+  <tr>
+    <td>LAS</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+  </tr>
+  <tr >
     <td rowspan="2">dev</td>
     <td>UAS</td>
     <td>66.77%</td>
@@ -43,20 +58,35 @@ A dependency parser for multi-annotation data
     <td>49.26%</td>
   </tr>
   <tr >
-    <td rowspan="4">以双人标注一致的数据训练，直接忽略双人不一致的数据</td>
+    <td rowspan="6">以双人标注一致的数据训练，直接忽略双人不一致的数据</td>
+    <td rowspan="2">train</td>
+    <td>UAS</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+  </tr>
+  <tr>
+    <td>LAS</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+  </tr>
+  <tr >
     <td rowspan="2">dev</td>
     <td>UAS</td>
     <td>66.01%</td>
     <td>69.29%</td>
     <td>47.86%</td>
-	</tr>
+  </tr>
   <tr>
     <td>LAS</td>
     <td>60.98%</td>
     <td>62.74%</td>
     <td>38.58%</td>
-	</tr>
-	<tr>
+  </tr>
+  <tr>
     <td rowspan="2">test</td>
     <td>UAS</td>
     <td>65.50%</td>
@@ -68,38 +98,66 @@ A dependency parser for multi-annotation data
     <td>59.64%</td>
     <td>61.51%</td>
     <td>37.32%</td>
-	</tr>
-  
+  </tr>
+   <tr >
+    <td rowspan="6">将双人标注不一致的句子看做两个独立的句子训练</td>
+    <td rowspan="2">train</td>
+    <td>UAS</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+  </tr>
+  <tr>
+    <td>LAS</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+  </tr>
   <tr >
-    <td rowspan="4">将双人标注不一致的句子看做两个独立的句子训练</td>
     <td rowspan="2">dev</td>
     <td>UAS</td>
     <td>67.44%</td>
     <td>68.95%</td>
     <td>50.96%</td>
-	</tr>
+  </tr>
   <tr>
     <td>LAS</td>
     <td>62.66%</td>
     <td>62.39%</td>
     <td>41.12%</td>
-	</tr>
-	<tr>
+  </tr>
+  <tr>
     <td rowspan="2">test</td>
     <td>UAS</td>
     <td>66.51%</td>
     <td>67.96%</td>
     <td>49.51%</td>
-	</tr>
-	<tr>
+  </tr>
+  <tr>
     <td>LAS</td>
     <td>61.13%</td>
     <td>61.71%</td>
     <td>38.83%</td>
-	</tr>
-  
+  </tr>
+   <tr >
+    <td rowspan="6">(方法a)将双人标注不一致的答案各赋予0.5的权重参与计算loss</td>
+    <td rowspan="2">train</td>
+    <td>UAS</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+  </tr>
+  <tr>
+    <td>LAS</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+  </tr>
   <tr >
-    <td rowspan="4">(方法a)将双人标注不一致的答案各赋予0.5的权重参与计算loss</td>
     <td rowspan="2">dev</td>
     <td>UAS</td>
     <td>67.07%</td>
@@ -124,10 +182,24 @@ A dependency parser for multi-annotation data
     <td>60.89%</td>
     <td>52.36%</td>
     <td>39.61%</td>
-	</tr>
-  
+  </tr>
    <tr >
-    <td rowspan="4">（方法b）将双人标注不一致的答案以或的关系（联合标签）参与计算loss</td>
+    <td rowspan="6">（方法b）将双人标注不一致的答案以或的关系（联合标签）参与计算loss</td>
+    <td rowspan="2">train</td>
+    <td>UAS</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+  </tr>
+  <tr>
+    <td>LAS</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+  </tr>
+  <tr >
     <td rowspan="2">dev</td>
     <td>UAS</td>
     <td>65.33%</td>
@@ -153,9 +225,23 @@ A dependency parser for multi-annotation data
     <td>51.91%</td>
     <td>39.57%</td>
   </tr>
-  
+   <tr >
+    <td rowspan="6">以相互一致率为权重，加权计算（方法a）</td>
+    <td rowspan="2">train</td>
+    <td>UAS</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+  </tr>
+  <tr>
+    <td>LAS</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+  </tr>
   <tr >
-    <td rowspan="4">以相互一致率为权重，加权计算（方法a）</td>
     <td rowspan="2">dev</td>
     <td>UAS</td>
     <td>67.74%</td>
@@ -181,9 +267,23 @@ A dependency parser for multi-annotation data
     <td>62.41%</td>
     <td>39.91%</td>
   </tr>
-
+   <tr >
+    <td rowspan="6">以相互一致率为权重，加权计算（方法b）</td>
+    <td rowspan="2">train</td>
+    <td>UAS</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+  </tr>
+  <tr>
+    <td>LAS</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+  </tr>
   <tr >
-    <td rowspan="4">以相互一致率为权重，加权计算（方法b）</td>
     <td rowspan="2">dev</td>
     <td>UAS</td>
     <td>67.15%</td>
@@ -209,9 +309,23 @@ A dependency parser for multi-annotation data
     <td>62.53%</td>
     <td>39.39%</td>
   </tr>
-  
+   <tr >
+    <td rowspan="6">以相互一致率为权重，加权计算（方法b）,同时加权label</td>
+    <td rowspan="2">train</td>
+    <td>UAS</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+  </tr>
+  <tr>
+    <td>LAS</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+  </tr>
   <tr >
-    <td rowspan="4">以相互一致率为权重，加权计算（方法b）,同时加权label</td>
     <td rowspan="2">dev</td>
     <td>UAS</td>
     <td>67.82%</td>
