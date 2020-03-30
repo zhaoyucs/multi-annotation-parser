@@ -156,14 +156,14 @@ A dependency parser for multi-annotation data
     <td>89.57%</td>
     <td>88.69%</td>
     <td>79.53%</td>
-    <td>%</td>
+    <td>73.84%</td>
   </tr>
   <tr>
     <td>LAS</td>
     <td>87.22%</td>
     <td>71.44%</td>
     <td>72.96%</td>
-    <td>%</td>
+    <td>66.27%</td>
   </tr>
   <tr >
     <td rowspan="2">dev</td>
@@ -171,12 +171,14 @@ A dependency parser for multi-annotation data
     <td>67.07%</td>
     <td>69.07%</td>
     <td>51.02%</td>
+    <td>53.31%</td>
   </tr>
   <tr>
     <td>LAS</td>
     <td>61.70%</td>
     <td>52.66%</td>
     <td>40.89%</td>
+    <td>41.14%</td>
   </tr>
   <tr>
     <td rowspan="2">test</td>
@@ -184,12 +186,14 @@ A dependency parser for multi-annotation data
     <td>66.13%</td>
     <td>68.87%</td>
     <td>50.49%</td>
+    <td>52.81%</td>
   </tr>
   <tr>
     <td>LAS</td>
     <td>60.89%</td>
     <td>52.36%</td>
     <td>39.61%</td>
+    <td>41.29%</td>
   </tr>
    <tr >
     <td rowspan="6">（方法b）将双人标注不一致的答案以或的关系（联合标签）参与计算loss</td>
