@@ -248,14 +248,14 @@ A dependency parser for multi-annotation data
     <td>89.94%</td>
     <td>89.00%</td>
     <td>80.53%</td>
-    <td>%</td>
+    <td>73.86%</td>
   </tr>
   <tr>
     <td>LAS</td>
     <td>87.25%</td>
     <td>85.11%</td>
     <td>74.31%</td>
-    <td>%</td>
+    <td>65.05%</td>
   </tr>
   <tr >
     <td rowspan="2">dev</td>
@@ -263,12 +263,14 @@ A dependency parser for multi-annotation data
     <td>67.74%</td>
     <td>70.05%</td>
     <td>52.14%</td>
+    <td>52.90%</td>
   </tr>
   <tr>
     <td>LAS</td>
     <td>62.72%</td>
     <td>64.09%</td>
     <td>42.33%</td>
+    <td>40.28%</td>
   </tr>
   <tr>
     <td rowspan="2">test</td>
@@ -276,12 +278,14 @@ A dependency parser for multi-annotation data
     <td>66.92%</td>
     <td>68.27%</td>
     <td>50.24%</td>
+    <td>52.83%</td>
   </tr>
   <tr>
     <td>LAS</td>
     <td>61.47%</td>
     <td>62.04%</td>
     <td>39.91%</td>
+    <td>41.13%</td>
   </tr>
    <tr >
     <td rowspan="6">以相互一致率为权重，加权计算（方法b）</td>
@@ -290,14 +294,14 @@ A dependency parser for multi-annotation data
     <td>91.22%</td>
     <td>91.27%</td>
     <td>82.20%</td>
-    <td>%</td>
+    <td>74.87%</td>
   </tr>
   <tr>
     <td>LAS</td>
     <td>88.52%</td>
     <td>88.05%</td>
     <td>75.68%</td>
-    <td>%</td>
+    <td>66.46%</td>
   </tr>
   <tr >
     <td rowspan="2">dev</td>
@@ -305,12 +309,14 @@ A dependency parser for multi-annotation data
     <td>67.15%</td>
     <td>69.83%</td>
     <td>51.04%</td>
+    <td>53.35%</td>
   </tr>
   <tr>
     <td>LAS</td>
     <td>62.22%</td>
     <td>63.58%</td>
     <td>40.78%</td>
+    <td>41.46%</td>
   </tr>
   <tr>
     <td rowspan="2">test</td>
@@ -318,12 +324,14 @@ A dependency parser for multi-annotation data
     <td>66.78%</td>
     <td>68.78%</td>
     <td>49.77%</td>
+    <td>54.44%</td>
   </tr>
   <tr>
     <td>LAS</td>
     <td>61.34%</td>
     <td>62.53%</td>
     <td>39.39%</td>
+    <td>43.72%</td>
   </tr>
    <tr >
     <td rowspan="6">以相互一致率为权重，加权计算（方法b）,同时加权label</td>
