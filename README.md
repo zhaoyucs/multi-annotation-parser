@@ -332,14 +332,14 @@ A dependency parser for multi-annotation data
     <td>91.22%</td>
     <td>91.32%</td>
     <td>80.98%</td>
-    <td>%</td>
+    <td>74.67%</td>
   </tr>
   <tr>
     <td>LAS</td>
     <td>89.21%</td>
     <td>88.54%</td>
     <td>74.41%</td>
-    <td>%</td>
+    <td>66.59%</td>
   </tr>
   <tr >
     <td rowspan="2">dev</td>
@@ -347,12 +347,14 @@ A dependency parser for multi-annotation data
     <td>67.82%</td>
     <td>70.01%</td>
     <td>50.68%</td>
+    <td>51.85%</td>
   </tr>
   <tr>
     <td>LAS</td>
     <td>62.70%</td>
     <td>63.88%</td>
     <td>40.38%</td>
+    <td>40.57%</td>
   </tr>
   <tr>
     <td rowspan="2">test</td>
@@ -360,11 +362,13 @@ A dependency parser for multi-annotation data
     <td>66.63%</td>
     <td>68.44%</td>
     <td>49.91%</td>
+    <td>52.37%</td>
   </tr>
   <tr>
     <td>LAS</td>
     <td>60.98%</td>
     <td>62.18%</td>
     <td>39.21%</td>
+    <td>41.47%</td>
   </tr>
 </table>
