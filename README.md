@@ -3,13 +3,21 @@ A dependency parser for multi-annotation data
 
 ## 实验结果
 from truth:从正确答案训练
+
 ignore:忽略不一致的句子
+
 copy：分割成两个句子
+
 (a)loss:将双人标注不一致的答案各赋予0.5的权重参与计算
+
 (b)loss:将双人标注不一致的答案以或的关系（联合标签）参与计算
+
 weighted (a):a 加权
+
 weighted (b):b 加权
+
 weighted (a) and label：a 加权，同时加权label
+
 <table>
   <tr>
     <th rowspan="3">批次</th>
