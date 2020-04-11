@@ -18,6 +18,7 @@ weighted (b):b 加权
 
 weighted (a) and label：a 加权，同时加权label
 
+mv: weighted majarity voting
 <table>
   <tr>
     <th rowspan="3">批次</th>
@@ -119,7 +120,6 @@ weighted (a) and label：a 加权，同时加权label
     <td>44.71%</td>
     <td>53.89%</td>
     <td>44.48%</td>
-    <td>80.45%</td>
   </tr>
    <tr >
     <td>copy</td>
@@ -282,5 +282,32 @@ weighted (a) and label：a 加权，同时加权label
     <td>40.57%</td>
     <td>52.37%</td>
     <td>41.47%</td>
+  </tr>
+  <tr>
+    <td>mv</td>
+    <td>99.76%</td>
+    <td>99.69%</td>
+    <td>64.63%</td>
+    <td>59.45%</td>
+    <td>63.59%</td>
+    <td>58.02%</td>
+    <td>99.99%</td>
+    <td>99.97%</td>
+    <td>68.38%</td>
+    <td>61.57%</td>
+    <td>66.33%</td>
+    <td>59.85%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>%</td>
+    <td>99.99%</td>
+    <td>99.98%</td>
+    <td>50.79%</td>
+    <td>39.59%</td>
+    <td>50.94%</td>
+    <td>39.80%</td>
+    
   </tr>
 </table>
