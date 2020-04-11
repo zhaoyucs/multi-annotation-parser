@@ -302,12 +302,12 @@ mv: weighted majarity voting
     <td>%</td>
     <td>%</td>
     <td>%</td>
+    <td>%</td>
     <td>99.99%</td>
     <td>99.98%</td>
     <td>50.79%</td>
     <td>39.59%</td>
     <td>50.94%</td>
     <td>39.80%</td>
-    
   </tr>
 </table>
