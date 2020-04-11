@@ -51,7 +51,7 @@ A dependency parser for multi-annotation data
     <th>LAS</th>
   </tr>
   <tr>
-    <td >从正确答案训练</td>
+    <td >from truth</td>
     <td>100%</td>
     <td>100%</td>
     <td>66.77%</td>
@@ -78,7 +78,7 @@ A dependency parser for multi-annotation data
     <td>49.26%</td>
   </tr>
   <tr >
-    <td>以双人标注一致的数据训练，直接忽略双人不一致的数据</td>
+    <td>ignore</td>
     <td>100%</td>
     <td>100%</td>
     <td>66.01%</td>
@@ -106,7 +106,7 @@ A dependency parser for multi-annotation data
     <td>80.45%</td>
   </tr>
    <tr >
-    <td>将双人标注不一致的句子看做两个独立的句子训练</td>
+    <td>copy</td>
     <td>87.81%</td>
     <td>85.02%</td>
     <td>67.44%</td>
@@ -133,7 +133,7 @@ A dependency parser for multi-annotation data
     <td>41.89%</td>
   </tr>
   <tr >
-    <td>(方法a)将双人标注不一致的答案各赋予0.5的权重参与计算loss</td>
+    <td>(a)loss</td>
     <td>89.57%</td>
     <td>87.22%</td>
     <td>67.07%</td>
@@ -160,7 +160,7 @@ A dependency parser for multi-annotation data
     <td>41.29%</td>
   </tr>
   <tr >
-    <td>（方法b）将双人标注不一致的答案以或的关系（联合标签）参与计算loss</td>
+    <td>（b）loss</td>
     <td>90.85%</td>
     <td>88.60%</td>
     <td>65.33%</td>
@@ -187,7 +187,7 @@ A dependency parser for multi-annotation data
     <td>43.13%</td>
   </tr>
   <tr>
-    <td>以相互一致率为权重，加权计算（方法a）</td>
+    <td>weighted（a）</td>
     <td>89.94%</td>
     <td>87.25%</td>
     <td>67.74%</td>
@@ -214,7 +214,7 @@ A dependency parser for multi-annotation data
     <td>41.13%</td>
   </tr>
   <tr>
-    <td>以相互一致率为权重，加权计算（方法b）</td>
+    <td>weighted（b）</td>
     <td>91.22%</td>
     <td>88.52%</td>
     <td>67.15%</td>
@@ -241,7 +241,7 @@ A dependency parser for multi-annotation data
     <td>43.72%</td>
   </tr>
   <tr>
-    <td>以相互一致率为权重，加权计算（方法b）,同时加权label</td>
+    <td>ewighted（b）and label</td>
     <td>91.22%</td>
     <td>89.21%</td>
     <td>67.82%</td>
