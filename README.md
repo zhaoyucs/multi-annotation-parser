@@ -235,7 +235,7 @@ mv: weighted majarity voting
     <td>88.52%</td>
     <td>67.15%</td>
     <td>62.22%</td>
-    <td>66.87%</td>
+    <td>66.78%</td>
     <td>61.34%</td>
     <td>91.27%</td>
     <td>88.05%</td>
